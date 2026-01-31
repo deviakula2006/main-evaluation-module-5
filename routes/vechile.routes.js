@@ -1,5 +1,5 @@
 import express from "express";
-import { addVehicle , getvehicle} from "../controllers/vechile.controller"
+import { addVehicle , getvehicle} from "../controllers/vechile.controller.js"
 const router =express.Router();
 router.post("/add",addVehicle);
 router.get("/",getvehicle);
